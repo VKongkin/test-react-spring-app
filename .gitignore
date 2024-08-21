@@ -1,0 +1,44 @@
+# Exclude the target directory except for certain paths
+target/
+!.mvn/wrapper/maven-wrapper.jar
+# Assuming you want to include specific files from target directories
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+# If you don’t need build artifacts, you can remove this exception
+!**/src/main/**/build/
+
+# For node projects (e.g., React)
+# Keep the exclusion of node_modules (don't commit them)
+node_modules/
+
+### VS Code ###
+.vscode/
+
+# Exclude sensitive environment files
+**/.env
+
+# Project-specific secrets
+secrets.properties
