@@ -33,6 +33,7 @@ build/
 # For node projects (e.g., React)
 # Keep the exclusion of node_modules (don't commit them)
 node_modules/
+node/
 
 ### VS Code ###
 .vscode/
